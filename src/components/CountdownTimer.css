@@ -1,0 +1,55 @@
+/* src/components/CountdownTimer.css */
+.countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .countdown-timer h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .time {
+    font-size: 2.5rem;
+    margin: 30px 0; /* Ajusta el margen superior e inferior */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .time span {
+    display: inline-block;
+    padding: 15px;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 8px;
+    margin: 0 10px; /* Aumenta el margen horizontal */
+    font-size: 1.2rem;
+    min-width: 80px;
+  }
+  
+  .btn {
+    margin-top: 30px; /* Aumenta el margen superior */
+    padding: 12px 24px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e55b50;
+  }
+  

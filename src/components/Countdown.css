@@ -1,0 +1,85 @@
+
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-image-container {
+  flex-shrink: 0;
+}
+
+.side-image {
+  width: 338px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-timer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-title {
+  font-size: 2rem;
+  color: #61ffb0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.time-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-number {
+  font-size: 3rem;
+  color: #333;
+}
+
+.time-label {
+  font-size: 1rem;
+  color: #777;
+}
+
+.click-button {
+  font-size: 1.2rem;
+  background-color: #5165d6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.click-button:hover {
+  background-color: #45a049;
+}
